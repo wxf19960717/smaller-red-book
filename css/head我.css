@@ -1,0 +1,200 @@
+#head{
+    /*height: 200px;*/
+   /*display: flex;*/
+    /*flex-flow:row;*/
+    /*justify-content:space-between;*/
+}
+#head1{
+    height: 50px;
+    display: flex;
+    flex-flow:row;
+    justify-content:space-between;
+}
+#head11{
+    width: 50px;
+    height: 50px;
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/三个横.svg);
+}
+#head12{
+    height:50px;
+    flex: 1px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+
+
+}
+#head13{
+    height: 50px;
+    width: 50px;
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/分享.svg);
+
+}
+#head2{
+    height: 2px;
+    width: 100%;
+    background-color: grey;
+    margin-top:3px;
+}
+#head3{
+    height: 110px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#head3-left{
+    background-image: url("../img/123.jpg ");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:90px;
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+#head3-right{
+    flex: 1;
+    height: 100px;
+
+}
+#head3-right-up{
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+
+}
+#head3-right-down{
+    height: 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+#head-left-up1{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    flex: 1;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    max-width: 80px;
+    min-width: 70px;
+
+
+}
+#head-left-up2{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    flex: 1;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    max-width: 80px;
+    min-width: 70px;
+
+}
+#head-left-up3{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    flex: 1;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    max-width: 80px;
+    min-width: 70px;
+
+}
+#head-left-down1{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    flex: 5;
+    text-align: center;
+
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: lightgray;
+
+    line-height:20px;
+
+}
+
+#head-left-down2{
+     height: 20px;
+     margin-top: 10px;
+     margin-left: 20px;
+     margin-right: 10px;
+     flex: 1;
+     text-align: center;
+     line-height: 40px;
+     font-size: 20px;
+     border-radius: 5px;
+     background-color: lightgray;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../img/设置.svg);
+    background-position: center;
+
+ }
+.head4{
+    height: 20px;
+    margin-left: -18px;
+    width: 95%;
+    color: hotpink;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+
+
+}
+#head5{
+    height: 20px;
+    margin-left: 10px;
+    width: 95%;
+  margin-top: 8px;
+    font-size: 13px;
+    /*text-align: center;*/
+    line-height: 20px;
+}
+#head6{
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+#head61{
+    flex:1;
+    text-align: right;
+    font-size: 20px;
+    height: 30px;
+    margin-top: 8px;
+
+}
+#head62{
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+    width:100px;
+    margin-top: 8px;
+}
+#head63{
+    flex:1;
+    text-align: left;
+    font-size: 20px;
+    height: 30px;
+    margin-top: 8px;
+}

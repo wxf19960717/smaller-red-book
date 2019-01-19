@@ -1,0 +1,166 @@
+#top{
+    height: 180px;
+    background: white;
+}
+#top1+{
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#top11{
+    text-align: center;
+    font-size: 23px;
+    flex: 8;
+    height:28px ;
+    color: grey;
+    line-height: 28px;
+
+}
+#top12{
+    background-image: url("../img/纸飞机.svg");
+    background-size: 25px ;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 40px;
+    flex: 1}
+
+#top2{
+    height: 33px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+
+ }
+#top21{
+    height: 18px;
+    flex: 8;
+    font-size: 10px;
+    line-height: 18px;
+    margin-left: 12px;
+}
+#top22{
+    height: 15px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-image: url(../img/开启.svg);
+
+}
+
+#top3{
+    height: 50px;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    /*justify-content: space-between;*/
+
+}
+#top31{
+    height: 50px;
+    width: 33%;
+    /*background-color: #31191f;*/
+    position: relative;
+}
+#top311{
+    height: 42px;
+    width: 42px;
+    /*position: center;*/
+
+    background-image: url(../img/心2.svg);
+    flex: 1;
+     background-color: #ff1744;
+    position: absolute;
+    /*margin-bottom:20px;*/
+    margin-left: 35px;
+    margin-top: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+#top312{
+    height: 10px;
+    width: 20px;
+    margin-top: 62px;
+    margin-left: 44px;
+    font-size: 5px;
+    text-align: center;
+
+
+
+}
+#top32{
+    height: 50px;
+    width: 33%;
+    /*background-color: brown;*/
+   /*margin-left: 0%;*/
+    position: relative;
+
+}
+#top321{
+    height: 42px;
+    width: 42px;
+    /*position: center;*/
+
+    background-image: url(../img/联系人.svg);
+    flex: 1;
+    background-color: #3F51B5;
+    position: absolute;
+    margin-bottom:20px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+#top322{
+    height: 10px;
+    width: 30px;
+    margin-top: 62px;
+    margin-left: 44px;
+    font-size: 6px;
+    text-align: center;
+
+
+
+}
+#top33{
+    height: 50px;
+    width: 33%;
+    /*background-color: brown;*/
+    /*margin-left: 0%;*/
+    position: relative;
+
+}
+#top331{
+    height: 42px;
+    width: 42px;
+    /*position: center;*/
+
+    background-image: url(../img/对话.svg);
+    flex: 1;
+    background-color: #00E5FF;
+    position: absolute;
+    margin-bottom:20px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+#top332{
+    height: 10px;
+    width: 30px;
+    margin-top: 63px;
+    margin-left: 44px;
+    font-size: 5px;
+    text-align: center;
+
+
+
+}

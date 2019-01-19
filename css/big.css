@@ -1,0 +1,12 @@
+#big {
+    height: 100%;
+    width: 100%;
+    background-color:#EEEE;
+    position: fixed;
+    /*min-width: 450px;*/
+      /*max-width: 550px;*/
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}

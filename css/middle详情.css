@@ -1,0 +1,182 @@
+
+#top{
+    height: 30px;
+    width: 100%;
+
+}
+#top9{
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../img/返回.svg);
+}
+
+
+
+
+#middle{
+    flex: 1;
+    height:500px ;
+
+    overflow: scroll;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#middle1{
+    height: 250px;
+    width: 100%;
+
+}
+#img {
+    height: 255px;
+    width: 100%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#top{
+    height: 36px;
+    background-color:white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: black ;
+    font-size: 22px;
+    text-align: center;
+    line-height: 36px;
+
+}
+#top-left{
+    height: 36px;
+    background-color: white;
+    flex: 1;
+
+
+}
+
+#top-center{
+    height: 36px;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+#top-center-center{
+    height: 36px;
+    width: 80px;
+    flex: 1;
+}
+#top-center-right{
+    height: 36px;
+    width: 80px;
+    flex: 1;
+}
+#top-center-left{
+    height: 36px;
+    width: 80px;
+    flex: 1;
+}
+#top-right{
+    height: 36px;
+    background-color: white;
+    flex: 1;
+
+
+}
+#middle2{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#middle21{
+    height: 20px;
+    background-color: red;
+    width: 50px;
+    color: white;
+    font-size: 5px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 5px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+#middle22{
+    height: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 25px;
+    margin-left: 8px;
+    color: red;
+    flex: 1;
+}
+#middle3{
+    height: 71px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#middle32{
+    height: 30px;
+    width: 100px;
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../img/心愿单.svg);
+    margin-right:2px;
+}
+#middle31{
+    height: 30px;
+    font-size: 20px;
+    margin-left: 8px;
+
+}
+#middle4{
+    height: 8px;
+    width: 100%;
+    background-color: lightgrey;
+}
+#middle6{
+    height: 8px;
+    width: 100%;
+    background-color: lightgrey;
+}
+#middle5{
+    height: 35px;
+    width: 100%;
+    color: grey;
+    font-size: 16px;
+    margin-left: 8px;
+    line-height: 35px;
+}
+#middle7{
+    height: 30px;
+    width: 100%;
+
+    font-size: 18px;
+    margin-left: 12px;
+    line-height: 35px;
+}
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.img1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}

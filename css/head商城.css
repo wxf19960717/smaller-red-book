@@ -1,0 +1,17 @@
+#head{
+    height: 30px;
+
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.head1{
+    font-size: 12px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    font-family: 微软雅黑;
+    min-width: 50px;
+    max-width: 80px;
+}

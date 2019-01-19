@@ -1,0 +1,62 @@
+#head{
+    height: 50px;
+
+
+    background-color: white;
+
+    /*overflow: scroll;*/
+
+}
+#head1{
+    width: 98%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    /*overflow: scroll;*/
+    margin-left: 4px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#head1 div {
+    width: 40px;
+    height: 30px;
+}
+#head1-left{
+     flex: 3;
+     height: 35px;
+
+ }
+#head1-center{
+    /*width: 30%;*/
+    height: 35px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex: 1;
+
+}
+#head1-right{
+    flex: 3;
+    height: 35px;
+
+}
+#head1-center-left{
+
+    height: 35px;
+    background-image: url(../img/搜索--1.svg);
+    background-size:50px;
+    background-repeat: no-repeat;
+    background-position:center;
+     min-width: 30px;
+      max-width: 60px;
+}
+#head1-center-right{
+    height: 35px;
+    font-size: 18px;
+    color:grey;
+    flex: 3;
+    /*size-fit*/
+    max-width: 600px;
+    min-width: 200px;
+}

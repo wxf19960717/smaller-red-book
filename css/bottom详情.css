@@ -1,0 +1,31 @@
+#bottom{
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.img2{
+    background-repeat: no-repeat;
+    background-size:40px;
+    background-position: center;
+    height: 40px;
+    flex: 1;
+}
+.wen{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    width: 80px;
+
+}
+.img3{
+    background-repeat: no-repeat;
+    background-size:50px;
+    background-position: center;
+    height: 40px;
+    flex: 1;
+}

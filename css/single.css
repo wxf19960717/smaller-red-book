@@ -1,0 +1,122 @@
+
+#top1 {
+    height: 36px;
+    background-color:white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: black ;
+    font-size: 12px;
+
+}
+
+#top_left {
+    flex:1;
+    height: 36px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+#top_center{
+    width: 50px;
+    height: 36px;
+}
+
+
+#top_right {
+    flex:1;
+    height: 36px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#top_left1{
+    margin-left:4px ;
+
+}
+#left-left {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 4px;
+
+
+}
+
+#left-left div {
+
+    width: 3px;
+
+    margin-left: 4px;
+    border-radius: 1px;
+}
+#left-left div:nth-child(1) {
+    height: 6px;
+}
+#left-left div:nth-child(2) {
+    height: 9px;
+}
+#left-left div:nth-child(3) {
+    height: 11px;
+}
+#left-left div:nth-child(4) {
+    height: 15px;
+}
+
+.left-left-ok {
+    background-color: black;
+}
+
+.left-left-lose {
+    background-color: grey;
+}
+
+
+
+#battery{
+    height: 36px;
+    width: 70px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#battery1{
+    height: 6px;
+    width: 2px;
+    background-color:gray;
+    border-radius: 0px 1px 1px 0px;
+
+}
+#battery2{
+    height: 12px;
+    width: 32px;
+    border: grey 1px solid;
+    border-radius: 3px;
+
+}
+#battery3{
+    height: 10px;
+    width: 16px;
+    animation: charge 5s linear infinite;
+}
+@keyframes charge {
+    0%{
+        background-color: red;
+        width: 1px;
+    }
+    20%{
+        background-color: yellow;
+        width: 5px;
+    }
+    80%{
+        background-color: green;
+        width:26px ;
+    }
+    100%{
+        background-color: green;
+        width: 30px;
+    }
+}

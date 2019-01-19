@@ -1,0 +1,283 @@
+#middle{
+    flex: 1;
+
+    overflow: scroll;
+
+}
+#middle2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+#middle-up{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex: 1;
+
+}
+#middle-up1{
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:35px;
+    background-image: url(../img/爽肤水.svg);
+
+
+
+
+}
+.middle-up12{
+    height: 10px;
+    width: 33px;
+    font-size: 10px;
+
+    margin-left: 27px;
+    margin-top: 70px;
+
+}
+#middle-up2{
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:35px;
+    background-image: url(../img/口红.svg);
+
+
+
+}
+#middle-up3{
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:40px;
+    background-image: url(../img/沐浴露.svg);
+
+
+
+}#middle-up4{
+     height: 100px;
+     flex: 1;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:35px;
+     background-image: url(../img/保健品.svg);
+     border-radius: 50%;
+
+
+
+
+ }
+#middle-up5{
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:40px;
+    background-image: url(../img/奶粉.svg);
+
+
+
+}
+
+
+#middle3{
+    height: 150px;
+    width: 100%;
+    /*background-color: #553355;*/
+}
+
+#middle4{
+    height: 150px;
+    width: 100%;
+}
+
+#middle5{
+    height: 150px;
+    width: 100%;
+}
+#middle6{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#middle1{
+    height: 150px;
+    width: 100%;
+}
+#img {
+    height: 150px;
+    width: 100%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#middle-down{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex: 1;
+
+}
+#middle-down1{
+
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:40px;
+    background-image: url(../img/牙刷.svg);
+
+
+
+
+}
+#middle-down2{
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:35px;
+    background-image: url(../img/鞋子.svg);
+
+
+
+}
+#middle-down3{
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:40px;
+    background-image: url(../img/包包.svg);
+
+
+
+}#middle-down4{
+     height: 100px;
+     flex: 1;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:35px;
+     background-image: url(../img/宠物1.svg);
+     border-radius: 50%;
+
+
+
+
+ }
+#middle-down5{
+    height: 100px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:30px;
+    background-image: url(../img/more.svg);
+
+
+
+}
+#middle-background {
+    height: 150px;
+    width: 100%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/g1.jpg);
+}
+#middle-background1 {
+    height: 150px;
+    width: 100%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/g3.jpg);
+}
+
+#middle61{
+    height:170px;
+    flex: 1;
+    /*display: flex;*/
+/*flex-flow: column;*/
+    /*justify-content: space-between;*/
+
+
+}
+#middle62{
+    height:170px;
+flex: 1;
+
+
+}
+
+#middle63{
+    height:170px;
+    flex: 1;
+
+
+
+}
+.tu {
+    height: 85px;
+    width: 85px;
+    margin-left: 25px;
+    margin-top: 12px;
+/*flex: ;*/
+    /*margin-top: 7px;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75px;
+}
+.font1 {
+    height: 37px;
+    width: 120px;
+    margin-left: 5px;
+    margin-top: 7px;
+    color: #555555;
+    font-size: 12px;
+
+
+}
+.font2{
+    height: 14px;
+    width: 30px;
+    margin-left: 5px;
+    margin-top: 2px;
+    color: red;
+    font-size: 12px;
+
+}
+#middle7{
+    height: 10px;
+    width: 210px;
+    color: grey;
+    font-size: 12px;
+    position: center;
+    margin-left: 100px;
+}
+
+
+
+

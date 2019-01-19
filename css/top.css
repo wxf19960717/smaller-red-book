@@ -1,0 +1,50 @@
+#top{
+    height: 36px;
+    background-color:white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: black ;
+    font-size: 22px;
+    text-align: center;
+    line-height: 36px;
+
+}
+#top-left{
+    height: 36px;
+    background-color: white;
+    flex: 1;
+
+
+}
+
+#top-center{
+    height: 36px;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+#top-center-center{
+    height: 36px;
+    width: 80px;
+    flex: 1;
+}
+#top-center-right{
+    height: 36px;
+    width: 80px;
+    flex: 1;
+}
+#top-center-left{
+    height: 36px;
+    width: 80px;
+    flex: 1;
+}
+#top-right{
+    height: 36px;
+    background-color: white;
+    flex: 1;
+
+
+}
